@@ -1,0 +1,53 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #E4E6EC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#root {
+    width: 95%;
+}
+
+/* importing fonts */
+
+@font-face {
+    font-family: urban-heavy;
+    src: url('./assets/font/Urbane-Heavy.ttf');
+}
+
+@font-face {
+    font-family: urban-Bold;
+    src: url('./assets/font/Urbane-Bold.ttf');
+}
+
+@font-face {
+    font-family: urban-DemiBold;
+    src: url('./assets/font/Urbane-DemiBold.ttf');
+}
+
+@font-face {
+    font-family: urban-Medium;
+    src: url('./assets/font/Urbane-Medium.ttf');
+}
+
+@font-face {
+    font-family: urban-Light;
+    src: url('./assets/font/Urbane-Light.ttf');
+}
+
+@font-face {
+    font-family: urban-ExtraLight;
+    src: url('./assets/font/Urbane-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: urban-Thin;
+    src: url('./assets/font/Urbane-Thin.ttf');
+}
