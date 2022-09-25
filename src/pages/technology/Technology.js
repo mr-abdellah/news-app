@@ -2,7 +2,7 @@ import "../Page.css";
 import { useTechnologyNewsQuery } from ".././../redux/newsSlice";
 
 const Technology = () => {
-  const { isError, isLoading, isSuccess, data } = useTechnologyNewsQuery();
+  const { isSuccess, data } = useTechnologyNewsQuery();
   const technologyNews = data?.articles;
   return (
     <div id="Technology">
