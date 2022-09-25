@@ -1,0 +1,30 @@
+h1 {
+    font-family: urban-DemiBold, sans-serif;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-between;
+}
+
+.post {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .posts {
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+        justify-content: center;
+        align-items: inherit;
+    }
+}
+
+@media (max-width: 425px) {
+    .posts {
+        grid-template-columns: repeat(1, 90%);
+        align-items: inherit;
+    }
+}
