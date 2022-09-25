@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/the_blog/static/css/main.45840423.css",
+    "main.js": "/the_blog/static/js/main.be79bf07.js",
+    "static/media/Urbane-ExtraLight.ttf": "/the_blog/static/media/Urbane-ExtraLight.6c6685c34d5b0e65a8e7.ttf",
+    "static/media/Urbane-Bold.ttf": "/the_blog/static/media/Urbane-Bold.ac39feb8c03a76869d35.ttf",
+    "static/media/Urbane-DemiBold.ttf": "/the_blog/static/media/Urbane-DemiBold.9c95809eac270833bd1b.ttf",
+    "static/media/Urbane-Thin.ttf": "/the_blog/static/media/Urbane-Thin.3b19cc107203ba9af4f8.ttf",
+    "static/media/Urbane-Light.ttf": "/the_blog/static/media/Urbane-Light.ee08f87396bc9e484277.ttf",
+    "static/media/Urbane-Medium.ttf": "/the_blog/static/media/Urbane-Medium.cc4648bc890421f892f0.ttf",
+    "static/media/Urbane-Heavy.ttf": "/the_blog/static/media/Urbane-Heavy.986937cfdde51b5e3bca.ttf",
+    "index.html": "/the_blog/index.html",
+    "main.45840423.css.map": "/the_blog/static/css/main.45840423.css.map",
+    "main.be79bf07.js.map": "/the_blog/static/js/main.be79bf07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45840423.css",
+    "static/js/main.be79bf07.js"
+  ]
+}
