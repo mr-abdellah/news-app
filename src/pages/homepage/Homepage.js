@@ -35,7 +35,7 @@ const Homepage = () => {
                 <p>{article?.publishedAt.slice(0, 10)}</p>
                 <h4>{article?.title}</h4>
                 <p>
-                  <Link to="/sports">{article.description}</Link>
+                  <a href={article.url} target='_blank'>{article.description}</a>
                 </p>
               </div>
             );})}

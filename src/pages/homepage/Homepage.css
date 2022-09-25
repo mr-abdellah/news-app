@@ -44,7 +44,7 @@
     margin-top: 5%;
     display: grid;
     grid-template-columns: repeat(3, 30%);
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 
@@ -78,4 +78,32 @@
     font-family: urban-Medium, sans-serif;
     width: 75%;
     text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .first_post {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Homepage .first_post img {
+        width: 100%;
+    }
+
+    .first_post_info {
+        width: 100%;
+    }
+
+    .first_post_info h4 {
+        width: 90%;
+    }
+
+    .homepage-posts {
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+        justify-content: center;
+        align-items: center;
+    }
 }
