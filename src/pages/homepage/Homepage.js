@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 
 const Homepage = () => {
   const allNews = useAllNewsQuery();
-  allNews && console.log(allNews?.data?.articles);
   const firstPost = allNews && allNews?.data?.articles[0];
 
   return (

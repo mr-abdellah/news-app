@@ -1,15 +1,15 @@
 import "../Page.css";
-import { useScienceNewsQuery } from ".././../redux/newsSlice";
+import { useTechnologyNewsQuery } from ".././../redux/newsSlice";
 
-const SciencePage = () => {
-  const {isSuccess, data } = useScienceNewsQuery();
-  const ScienceNews = data?.articles;
+const Technology = () => {
+  const { isError, isLoading, isSuccess, data } = useTechnologyNewsQuery();
+  const technologyNews = data?.articles;
   return (
-    <div id="SciencePage">
-      <h1>Science News</h1>
+    <div id="Technology">
+      <h1>Technology News</h1>
       <div className="posts">
         {isSuccess &&
-          ScienceNews.map((article, index) => (
+          technologyNews.map((article, index) => (
             <div className="homepage_post post" key={index}>
               <img src={article?.urlToImage} alt={article?.title} />
               <p>{article?.publishedAt.slice(0, 10)}</p>
@@ -26,4 +26,4 @@ const SciencePage = () => {
   );
 };
 
-export default SciencePage;
+export default Technology;

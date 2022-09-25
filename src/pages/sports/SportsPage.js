@@ -2,7 +2,7 @@ import "../Page.css";
 import { useSportsNewsQuery } from ".././../redux/newsSlice";
 
 const SportsPage = () => {
-  const { isError, isLoading, isSuccess, data } = useSportsNewsQuery();
+  const {isSuccess, data } = useSportsNewsQuery();
   const sportsNews = data?.articles;
   console.log(sportsNews);
   return (
