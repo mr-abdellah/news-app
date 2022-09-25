@@ -2,7 +2,6 @@ import { useAllNewsQuery } from "../../redux/newsSlice";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import "./Homepage.css";
-import { Link } from "react-router-dom";
 
 const Homepage = () => {
   const allNews = useAllNewsQuery();
@@ -34,7 +33,9 @@ const Homepage = () => {
                 <p>{article?.publishedAt.slice(0, 10)}</p>
                 <h4>{article?.title}</h4>
                 <p>
-                  <a href={article.url} target='_blank'>{article.description}</a>
+                  <a href={article.url} target="_blank" rel="noreferrer">
+                    {article.description}
+                  </a>
                 </p>
               </div>
             );})}

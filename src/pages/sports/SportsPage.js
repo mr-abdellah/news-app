@@ -16,7 +16,7 @@ const SportsPage = () => {
               <p>{article?.publishedAt.slice(0, 10)}</p>
               <h4>{article?.title}</h4>
               <p>
-                <a href={article.url} target="_blank">
+                <a href={article.url} rel="noreferrer" target="_blank">
                   {article.description}
                 </a>
               </p>
